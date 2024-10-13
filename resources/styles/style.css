@@ -1,0 +1,144 @@
+body {
+  background-color: rgba(12, 12, 46, 0.963);
+  padding: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.content-page {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+}
+
+.content-page {
+  display: none; /* Agrega esta línea */
+}
+
+
+.div1  {
+  color: #aed8fc;
+  font-weight: bold;
+}
+
+.div1 .span1 {
+  color: #aed8fc;
+  font-size: 68px;
+}
+
+.div1 .span2 {
+  color: #aed8fc;
+  font-size: 58px;
+}
+
+.div5, .div9 {
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.div8 { 
+  margin: 0 auto;
+  width: 190px;
+  height: 100%;
+  background: rgb(236, 236, 236);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  margin-bottom: 60px;
+}
+
+.cont-img {
+  background-image: url('/resources/images/Leonardo_Phoenix_A_highly_detailed_and_realistic_illustration_3-removebg-preview.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 100%;
+}
+/* Estilos del Footer */
+footer {
+  margin-top: auto;
+  padding: 20px 0;
+}
+
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.div3, .div4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .span1 { font-size: 48px; }
+  .span2 { font-size: 36px; }
+
+  .footer-content {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .span1 { font-size: 32px; }
+  .span2 { font-size: 24px; }
+
+  .div5, .div9 {
+    font-size: 14px;
+  }
+
+  .div8 {
+    height: 150px;
+  }
+
+  .origin {
+    font-size: small;
+  }
+}
+
+
+
+@keyframes ball-move {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(125px); }
+}
+
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .span1 { font-size: 48px; }
+  .span2 { font-size: 36px; }
+
+  .footer-content {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .span1 { font-size: 32px; }
+  .span2 { font-size: 24px; }
+
+  .div5, .div9 {
+    font-size: 14px;
+  }
+
+  .div8 {
+    height: 150px;
+  }
+
+  .origin {
+    font-size: small;
+  }
+}

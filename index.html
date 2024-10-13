@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/resources/styles/style.css">
+    <link rel="stylesheet" href="/resources/styles/styleDinamics.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <title>Página de Error</title>
+</head>
+
+<body>
+    <div class="content-page">
+        <section class="section">
+            <div class="container has-text-centered">
+                <div class="div1">
+                    <span class="span1 title is-1">404</span>
+                    <span class="span2 subtitle is-3">Not Found</span>
+                </div>
+
+                <div class="div5">
+                    <p class="has-text-white">I have bad news for you</p>
+                </div>
+
+                <div class="div8 mt-5">
+                    <div class="cont-img"></div>
+                </div>
+
+                <div class="div9 mt-5">
+                    <p class="has-text-white">
+                        The page you are looking for might be removed or is temporarily unavailable
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="">
+            <div class="footer-content columns is-mobile">
+                <div class="div3 column has-text-centered">
+                    <div class="bar">
+                        <div class="ball"></div>
+                    </div>
+                    <p class="origin has-text-light">From Uiverse.io</p>
+                </div>
+                <div class="div4 column has-text-centered">
+                    <div class="spinner">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <p class="origin has-text-light">From Uiverse.io</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script src="/resources/js/lib/jquery-3.7.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.content-page').slideDown(2000);
+        });
+    </script>
+
+</body>
+
+</html>
